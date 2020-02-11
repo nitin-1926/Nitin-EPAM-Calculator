@@ -5,7 +5,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println("Choose");
+        System.out.println("Enter");
         System.out.println("1 for Addition\n2 for Subtraction\n3 for Multiplication\n4 for Division");
         System.out.println("Enter choice (1/2/3/4): ");
         Scanner sc = new Scanner(System.in);
@@ -21,6 +21,7 @@ public class App
                 Addition add = new Addition(num1, num2);
                 System.out.println(add.calculate());
                 break;
+
             case 2 :
                 System.out.println("Enter 1st number : ");
                 num1=sc.nextDouble();
